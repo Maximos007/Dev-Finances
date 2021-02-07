@@ -34,7 +34,7 @@ header {
 
 #logo {
   color: #fff;
-  font-weight: 100;
+  /**font-weight: 100;     <- arrumar       **/  
 }
 /*Balance*/
 #balance {
