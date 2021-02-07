@@ -9,7 +9,7 @@
 }
 
 body {
-  background: #F0F2F5; /*CHANGE COLOR*/
+  background: #f5f5f5; /*CHANGE COLOR*/
   font-family: "Poppins", sans-serif;
 }
 
@@ -27,7 +27,7 @@ h2 {
 }
 /*Header*/
 header {
-  background: #2d4a22;
+  background: rgb(138, 5, 190);
   padding: 2rem 0 10rem;
   text-align: center;
 }
@@ -68,7 +68,7 @@ header {
 }
 
 .card.total {
-  background: #49aa26;
+  background: #008080;
   color: white;
 }
 /*table*/
