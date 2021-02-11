@@ -76,7 +76,7 @@ background: ;
 */
 .button.new {
   display: inline-block;
-  margin-bottom: .8rem;
+  margin-bottom: 0.8rem;
 }
 
 .button.cancel {
@@ -106,13 +106,13 @@ header {
 
 #logo {
   color: #fff;
-  /**font-weight: 100;     <- arrumar       **/  
+  /**font-weight: 100;     <- arrumar       **/
 }
 /*Balance*/
 #balance {
   margin-top: -8rem;
 }
-#balance h2{
+#balance h2 {
   color: white;
   margin-top: 0;
 }
@@ -152,7 +152,6 @@ header {
   display: block;
   width: 100%;
   overflow-x: auto;
-
 }
 
 #data-table {
@@ -162,15 +161,14 @@ header {
 }
 
 table thead tr th:first-child,
-table tbody tr td:first-child
-{
+table tbody tr td:first-child {
   border-radius: 0.25rem 0 0 0.25rem;
 }
 
 table thead tr th:last-child,
-table tbody tr td:last-child
-{
-  border-radius: 0 0.25rem 0.25rem 0;}
+table tbody tr td:last-child {
+  border-radius: 0 0.25rem 0.25rem 0;
+}
 
 table th {
   background: white;
@@ -191,7 +189,7 @@ table tbody tr:hover {
 table tbody td {
   background: white;
 
-  padding:1rem 2rem;
+  padding: 1rem 2rem;
 }
 
 td.description {
@@ -201,7 +199,7 @@ td.description {
 td.income {
   color: #12a454;
 }
-td.expense { 
+td.expense {
   color: #e92929;
 }
 
@@ -210,7 +208,7 @@ td.expense {
   width: 100%;
   height: 100%;
 
-  background-color: rgba(0, 0, 0, .7);
+  background-color: rgba(0, 0, 0, 0.7);
 
   position: fixed;
   top: 0;
@@ -235,7 +233,6 @@ td.expense {
 
   position: relative;
   z-index: 1;
-  
 }
 
 /*Form*/
@@ -262,7 +259,6 @@ input-group {
 
 .input-group small {
   opacity: 0.4;
-  
 }
 
 .input-group.actions {
