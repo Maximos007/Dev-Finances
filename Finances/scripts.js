@@ -40,6 +40,12 @@ const transactions = [
 
 const Transaction = {
   all: transactions,
+  add(transaction){
+    Transaction.all.push(transaction)
+
+    console.log(transaction.all);
+  },
+
   incomes() {
     let income = 0;
     transactions.all.forEach((transaction) => {
@@ -49,6 +55,7 @@ const Transaction = {
     });
     return income;
   },
+
   expenses() {
     let expense = 0;
     transactions.all.forEach((transaction) => {
@@ -58,10 +65,17 @@ const Transaction = {
     });
     return expense;
   },
+
   total() {
     return Transaction.incomes() + Transaction.expenses();
   },
 };
+
+const App = {
+  init() {},
+  reload() {},
+
+}
 
 const DOM = {
   transactionsContainer: document.querySelector("#data-table tbody"),
@@ -122,3 +136,11 @@ transactions.forEach(function (transaction) {
 });
 
 DOM.updateBalance();
+
+Transaction.add({
+  id: 39,
+  description: 'Alo',
+  amount: 200,
+  date: "23/01/2021",
+
+})
